@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-ts-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:caiobatis/nextjs-ts-template.git",
+  "author": "Caio Batista <caiobatis7@gmail.com>",
+  "license": "MIT"
+}
