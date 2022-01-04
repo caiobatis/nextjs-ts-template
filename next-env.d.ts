@@ -1,6 +1,5 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
-/// <reference types="next-images" />
 
 interface Window {
   __REDUX_DEVTOOLS_EXTENSION__: any
