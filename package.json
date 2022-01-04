@@ -46,5 +46,19 @@
     "url-loader": "^4.1.1",
     "webpack": "^5.37.0",
     "webpack-bundle-analyzer": "^3.0.2"
+  },
+  "scripts": {
+    "clean": "rm -Rf .next",
+    "dev": "yarn clean && next -p 4000",
+    "build": "NODE_ENV=production next build",
+    "analyze": "NODE_ENV=production ANALYZE=true next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint \"**/*.{js,jsx,spec.js,ts,tsx,spec.ts}\"",
+    "lint:write": "yarn lint -- --fix",
+    "prettier": "prettier --config .prettierrc --list-different \"src/**/*{ts, tsx}\"",
+    "prettier:write": "yarn prettier -- --write",
+    "precommit": "yarn prettier",
+    "prepush": "yarn precommit && yarn lint && yarn test"
   }
 }

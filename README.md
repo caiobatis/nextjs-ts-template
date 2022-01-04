@@ -34,7 +34,6 @@ The future stack:
 - ES6 (Babel)
 - React
 - Axios
-- Jest + Enzyme
 - Tailwind
 - Styled Components
 - ESlint
@@ -61,14 +60,6 @@ yarn && yarn dev
 
 ```bash
 NODE_ENV=production yarn build
-```
-
-## Testing
-
-### Using jest with enzyme (see examples on `./src/**/*.spec.ts`)
-
-```bash
-yarn test
 ```
 
 ## Deploy
