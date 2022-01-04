@@ -1,6 +1,6 @@
-name: Build application
+name: build
 on:
-  pull_request:
+  push:
     branches:
       - master
     types: [opened, synchronize, reopened]

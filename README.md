@@ -5,18 +5,12 @@
 ## Builds Status
 
 #### Master:
-[![pipeline status]()](https://github.com/caiobatis/nextjs-ts-template)
+[![build](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml)
 
-#### Development:
-[![pipeline status]()](https://github.com/caiobatis/nextjs-ts-template)
-
-## Test Coverage
+## Quality
 
 #### Master:
-[![coverage report]()](https://github.com/caiobatis/nextjs-ts-template)
-
-#### Development:
-[![coverage report]()](hhttps://github.com/caiobatis/nextjs-ts-template)
+[![quality](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml)
 
 ---
 

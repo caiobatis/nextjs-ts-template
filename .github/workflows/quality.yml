@@ -1,4 +1,4 @@
-name: Tests and Lint
+name: quality
 on: [push]
 jobs:
   build:
