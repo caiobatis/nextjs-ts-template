@@ -1,18 +1,14 @@
 ![nextjs-ts-template](public/nextjs-ts-template.png)
 
-# NextJS with Typescript Template
 
-## Builds Status
+## NextJS with Typescript Template
 
-#### Master:
-[![build](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml)
+[![build](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml) [![quality](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml)
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/caiobatis/nextjs-ts-template">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiobatis/nextjs-ts-template">
+<img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+<img alt="Stargazers" src="https://img.shields.io/github/stars/caiobatis/nextjs-ts-template?style=social">
 
-## Quality
-
-#### Master:
-[![quality](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml)
-
----
 
 ## Requirements
 
