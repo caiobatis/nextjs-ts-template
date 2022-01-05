@@ -1,55 +1,27 @@
 module.exports = {
-  purge: ['./src/**/*.{js,ts,jsx,tsx}'], // so Tailwind can tree-shake unused styles in production builds
-  darkMode: false, // or 'media' or 'class'
+  purge: ['./src/**/*.{ts,tsx}'],
+  darkMode: false,
   theme: {
     colors: {
-      brand: {
-        hover: 'var(--f-color-hover-brand-element)',
-        DEFAULT: 'var(--f-color-brand--primary)'
+      primary: {
+        light: 'var(--f-color--primary-light)',
+        DEFAULT: 'var(--f-color--primary)',
+        dark: 'var(--f-color--primary-dark)',
       },
       secondary: {
-        DEFAULT: 'var(--f-color-element--secondary)',
-        dark: 'var(--f-color-element--secondary-dark)',
-        light: 'var(--f-color-element--secondary-light)',
-        lightest: 'var(--f-color-element--secondary-lightest)'
+        light: 'var(--f-color--secondary-light)',
+        DEFAULT: 'var(--f-color--secondary)',
+        dark: 'var(--f-color--secondary-dark)',
       },
       white: '#fff'
-    },
-    textColor: {
-      white: 'var(--f-color-text--white)',
-      primary: {
-        darkest: 'var(--f-color-text--primary-darkest)',
-        dark: 'var(--f-color-text--primary-dark)',
-        DEFAULT: 'var(--f-color-text--primary)',
-        light: 'var(--f-color-text--primary-light)'
-      },
-      secondary: {
-        dark: 'var(--f-color-element--secondary-dark)',
-        DEFAULT: 'var(--f-color-text--secondary)'
-      },
-      success: {
-        DEFAULT: 'var(--f-color-text--success)'
-      },
-      error: {
-        DEFAULT: 'var(--f-color-text--error)'
-      }
     },
     extend: {},
     screens: {
       sm: '640px',
-      // => @media (min-width: 640px) { ... }
-
       md: '768px',
-      // => @media (min-width: 768px) { ... }
-
       lg: '1024px',
-      // => @media (min-width: 1024px) { ... }
-
       xl: '1280px',
-      // => @media (min-width: 1280px) { ... }
-
       '2xl': '1280px'
-      // => @media (min-width: 1536px) { ... }
     },
     fontFamily: {
       sans: ['var(--f-typography--primary)', 'sans-serif'],
