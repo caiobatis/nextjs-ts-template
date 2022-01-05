@@ -1,3 +1,5 @@
+// TODO: look for ways to use StyledComponents global theme with Tailwind
+
 module.exports = {
   purge: ['./src/**/*.{ts,tsx}'],
   darkMode: false,

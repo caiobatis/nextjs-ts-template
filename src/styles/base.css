@@ -1,4 +1,8 @@
 :root {
+  --f-color--primary-dark: #f5cf95;
+  --f-color--primary: #eba040;
+  --f-color--primary-light: #aa7627;
+
   --f-color--secondary-dark: #4d4d4d;
   --f-color--secondary: #737373;
   --f-color--secondary-light: #b3b3b3;
