@@ -1,7 +1,7 @@
 name: quality
 on: [push]
 jobs:
-  build:
+  eslint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
