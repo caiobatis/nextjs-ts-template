@@ -23,10 +23,10 @@ interface TProps {
 export const getClassesByVariant = (variant?: string) => {
   switch (variant) {
     case 'lg':
-      return 'leading-normal text-base md:text-xl font-normal'
+      return 'leading-normal text-lg font-normal'
 
     case 'md':
-      return 'leading-loose text-lg'
+      return 'leading-loose text-md'
 
     case 'sm':
       return 'leading-3 text-sm'
@@ -35,7 +35,7 @@ export const getClassesByVariant = (variant?: string) => {
       return 'leading-snug text-xs font-normal'
 
     case 'xl':
-      return 'leading-5 text-lg md:text-xl font-normal'
+      return 'leading-5 text-xl font-normal'
 
     default:
       return 'leading-normal text-base font-normal'

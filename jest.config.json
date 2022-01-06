@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-ts-template",
+  "verbose": true,
+  "preset": "ts-jest",
+  "setupFilesAfterEnv": [
+    "./node_modules/jest-enzyme/lib/index.js",
+    "./test/setup.js"
+  ],
+  "testEnvironment": "enzyme",
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "setupFiles": ["jest-prop-type-error", "./test/helpers.js"],
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy",
+    "./env/test": "identity-obj-proxy"
+  },
+  "moduleFileExtensions": [ "json", "ts", "tsx", "node", "js"],
+  "globals": {
+    "NODE_ENV": "test"
+  },
+  "transform": {
+    "^.+\\.(js|ts|tsx)$": "babel-jest"
+  },
+  "collectCoverageFrom": ["src/**/*.{ts,tsx}"],
+  "coverageReporters": ["json-summary", "text", "html", "lcov"],
+  "coverageDirectory": "coverage",
+  "testPathIgnorePatterns": [
+    "/.next/",
+    "/public/",
+    "/node_modules/",
+    "/next.config/.js"
+  ]
+}
