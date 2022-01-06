@@ -1,15 +1,8 @@
 name: quality
 on: [push]
 jobs:
-  lint:
+  build:
     name: Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/actions/reworkflow@v1
-      - name: 💄 Run lint
-        run: yarn lint
-  test:
-    name: Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
