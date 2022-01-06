@@ -3,7 +3,7 @@ import React from 'react'
 import App, { AppContext, AppProps } from 'next/app'
 
 import 'tailwindcss/tailwind.css'
-import Theme from 'components/atoms/Theme'
+import { Theme } from 'atoms'
 
 const WrappedApp = ({ Component, pageProps }: AppProps) => {
   return (
