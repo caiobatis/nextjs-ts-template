@@ -3,7 +3,8 @@
 
 ## NextJS with Typescript Template
 
-[![build](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml) [![quality](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/quality.yml)
+[![build](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/build.yml) [![quality](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/lint.yml/badge.svg)](https://github.com/caiobatis/nextjs-ts-template/actions/workflows/lint.yml)
+<img alt="Codecov" src="https://codecov.io/gh/caiobatis/nextjs-ts-template/branch/master/graph/badge.svg?token=uvTozGucKa">
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiobatis/nextjs-ts-template">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiobatis/nextjs-ts-template">
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">

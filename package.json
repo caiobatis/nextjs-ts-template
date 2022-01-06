@@ -69,7 +69,7 @@
     "build": "NODE_ENV=production next build",
     "analyze": "NODE_ENV=production ANALYZE=true next build",
     "test": "jest --config jest.config.json -u --passWithNoTests --detectOpenHandles",
-    "test:coverage": "npm test -- --coverage",
+    "test:coverage": "yarn test -- --coverage",
     "export": "next export",
     "start": "next start",
     "lint": "eslint \"**/*.{js,jsx,spec.js,ts,tsx,spec.ts}\"",
