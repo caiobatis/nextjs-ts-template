@@ -77,6 +77,6 @@
     "prettier": "prettier --config .prettierrc --list-different \"src/**/*{ts, tsx}\"",
     "prettier:write": "yarn prettier -- --write",
     "precommit": "yarn prettier",
-    "prepush": "yarn precommit && yarn lint"
+    "prepush": "yarn precommit && yarn lint && yarn test"
   }
 }
