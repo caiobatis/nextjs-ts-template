@@ -57,3 +57,5 @@ NODE_ENV=production yarn build
 
 In the future, maybe I will bring this model a good way to deploy. In case I can get the time.
 For now use Vercel, Netlify or whatever you want
+
+
